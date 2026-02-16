@@ -19,3 +19,6 @@ console.log(d);
 let d1= new Date("February 16 2026 10:10:10") // another manual way 
 console.log(d1);
 console.log(d1.getMonth());
+const d = new Date()
+d.setFullYear(2025)
+d.setMonth(11)// by these we can set date month year etc
