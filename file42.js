@@ -3,7 +3,7 @@ function f1() {
     setTimeout(()=>{
         console.log("This is f1 function")
         resolve()
-    },3000)
+    },3000)//its in millisecond 3000 here is 3 secs
   });
 }
 function f2() {
